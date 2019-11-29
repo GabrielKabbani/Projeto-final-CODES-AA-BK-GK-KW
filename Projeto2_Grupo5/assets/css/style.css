@@ -1,0 +1,278 @@
+.header {
+  
+  bottom: 20%;
+  width: 100%;
+  height: 7rem;
+  border-width: 4px;
+  display: flex;
+
+}
+.body{
+}
+
+.main-img-cont{
+
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  width: 10rem;
+
+}
+
+.logo {
+  margin: 1rem;
+  width: 6rem;
+  height: 5rem;
+  margin-top: 5rem;
+}
+
+.seta {
+  width: 6rem;
+  height: 5rem;
+  margin-top: 5rem;
+  padding-left : 80rem;
+}
+
+.calendario {
+  margin: 1rem;
+  width: 7rem;
+  height: 7rem;
+  margin-top: 2rem
+
+}
+
+/* index.html */
+
+.sections-menu-item {
+
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 21rem;
+  width: 100%;
+  border-radius: 3rem;
+  border-spacing: 3rem;
+  background-color: rgba(190, 8, 43, 1);
+}
+
+
+.sections-menu-item-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 1rem;
+  height: 15rem;
+}
+.sections-menu-item-text-title{
+  font-family:'Roboto Condensed', sans-serif;
+  font-size: 3.5rem;
+  padding-top: 2rem;
+  color: white;
+  text-decoration: none;
+  
+}
+
+/* secao.html */
+
+.materias-menu {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.materias-menu-item {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15rem;
+  width: 100%;
+  border-radius: 2rem;
+  background-color: black;
+}
+
+.calendario-menu-item {
+  margin-top: 7rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 20rem;
+  width: 100%;
+  border-radius: 10rem;
+  background-color: rgba(190, 8, 43, 1);
+}
+
+
+.materias-menu-item-text 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 1rem;
+  height: 15rem;
+}
+
+.calendario-menu-item-text 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 1rem;
+  height: 15rem;
+  padding-top: 3rem;
+}
+
+
+.materias-menu-item-text-title{
+  font-family:'Roboto Condensed', sans-serif;
+  font-size: 3.5rem;
+  padding-top: 2rem;
+  color: white;
+  text-decoration: none;
+}
+
+.calendario-menu-item-text-title{
+  font-family:'Roboto Condensed', sans-serif;
+  font-size: 3.5rem;
+  padding-top: 2rem;
+  color: white;
+  text-decoration: none;
+}
+
+.titulo-menu-item-text 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 1rem;
+}
+
+.titulo-menu-item-text-title{
+  font-family:'Slabo 27px', serif;
+  font-size: 5rem;
+  padding-top: 2rem;
+  color: rgb(122, 115, 116);
+  text-decoration: none;
+}
+
+.titulo-menu-item {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+/* secao.html */
+
+.projects-menu {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.projects-menu-item {
+  margin-top: 2rem;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10rem;
+  width: 100%;
+  border-radius: 2rem;
+  background-color: rgb(122, 115, 116);
+}
+
+.projects-menu-item-text 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 1rem;
+  height: 15rem;
+}
+
+.projects-menu-item-text-title{
+  font-family:'Roboto Condensed', sans-serif;
+  font-size: 3.5rem;
+  padding-top: 2rem;
+  color: white;
+  text-decoration: none;
+}
+
+/* projeto.html */
+
+.project-main{
+  display: flex;
+  flex-wrap:wrap;
+  text-align: start;
+  align-content: flex-start;
+}
+
+.project-title {
+  text-align: center;
+  margin-top: 4rem;
+  width: 100%;
+  font-family: 'Slabo 27px', serif;
+  font-weight: bolder;
+  font-size: 3.5rem;
+  color: rgba(190, 8, 43, 1);
+}
+
+.project-cont{
+  width: 100%;
+  justify-content: stretch;
+  margin: 2rem;
+  color: rgb(122, 115, 116);
+}
+
+.project-text {
+  padding-left: 4rem;
+  padding-bottom: 2rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  line-height: 1rem;
+  font-size: 0.6rem;
+  color: rgb(122, 115, 116);
+  align-content: flex-start;
+}
+
+.destaque{
+    font-family: 'Slabo 27px', serif;
+    font-weight: bolder;
+    padding-bottom: 0.5rem;
+    padding-top: 2rem;
+    font-size:1rem;
+    color: rgba(190, 8, 43, 1);
+
+}
+
+.acionas{
+  width: 50rem;
+  align-content: center;
+  border-radius: 5rem;
+  justify-content: flex;
+  margin-left: 6rem;
+}
+
+.foto_calendario{
+  margin-top: 14rem;
+}
+
+
+
+
